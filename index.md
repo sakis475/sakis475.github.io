@@ -11,7 +11,7 @@ Sentiment Analysis on Twitter
 ΠΙΠΛΙΚΑΤΣΗΣ ΑΘΑΝΑΣΙΟΣ	
 Π2015038
 
-**Παραδοτέο 1**
+### Παραδοτέο 1
 
 Διαβαθμίσεις συναισθημάτων με βάση τα χρώματα:
 
@@ -23,7 +23,7 @@ Sentiment Analysis on Twitter
 Λέξεις που θα μεταφραστούν: 
 pain, pained, painful, panic, panicked, panics, paradise, paradox, pardon, pardoned, pardoning, pardons, parley, passion, passionate, passive, passively, pathetic, pay, peace, peaceful, peacefully, penalize, penalized, penalizes, penalizing, penalty, pensive, perfect, perfected
 
-**Παραδοτέο 2**
+### Παραδοτέο 2
 
 Η διεύθυνση (url) της ιστοσελίδας μου με την εφαρμογή :
 https://twitter2015038.herokuapp.com/
@@ -54,7 +54,7 @@ https://twitter2015038.herokuapp.com/
 
 pain = πόνος ,pained = πονεμένος ,πικραμένος, painful = επώδυνο ,panic = πανικός ,panicked = πανικοβλήθηκα ,πανικοβλήθηκαν ,πανικοβλήθηκε ,panics = πανικοί , paradise = παράδεισος ,paradox	= παράδοξο ,pardon = συγνώμη ,pardoned = χάρη , pardoning = αμνήστευση , pardons = συγχωρήσεις , parley = διαπραγμάτευση ,passion = πάθος , passionate = παθιασμένος , passive	= παθητικό ,παθητικός , passively = παθητικά , pathetic = αξιολύπητος , pay = μισθός ,πληρωμή , peace = ειρήνη , peaceful = ειρηνικός , peacefully = ειρηνικά , penalize = τιμωρεί , penalized = τιμωρούνται , penalizing = τιμωρία  , penalty	= ποινή  ,pensive = σκεπτικός  , perfect = τέλειο  , perfected = τελειοποιημένο ,perfection = τελειότητα 
 
-**Παραδοτέο 3**
+### Παραδοτέο 3
 
 Η διεύθυνση (url) της ιστοσελίδας μου με την εφαρμογή :
 https://twitter2015038.herokuapp.com/
