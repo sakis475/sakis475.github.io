@@ -43,9 +43,11 @@ pain, pained, painful, panic, panicked, panics, paradise, paradox, pardon, pardo
 
 ||[ twitter-stream-globe/public/javascripts/TweetHud.js
 ](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%28%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%29/public/javascripts/TweetHud.js) 
-|| [  twitter-stream-globe/public/stylesheets/style.scss
+||
+[  twitter-stream-globe/public/stylesheets/style.scss
 ](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF(%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-)/public/stylesheets/style.scss) 
-|| [   twitter-stream-globe/public/stylesheets/style.css 
+||
+[   twitter-stream-globe/public/stylesheets/style.css 
 ](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF(%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-)/public/stylesheets/style.css)
 
 
