@@ -2,13 +2,22 @@
 
 ## Εισαγωγή
 Σκοπός αυτής της εργασίας ήταν να κάνουμε κάποιους μετασχηματισμούς στο project [twitter-stream-globe](https://github.com/ioniodi/twitter-stream-globe), όπου αυτό που κάνει η συγκεκριμένη εφαρμογή είναι να προβάλει μια 3D απεικόνιση, σε πραγματικό χρόνο, των Tweets από όλο τον κόσμο. 
+  
+  
 Η αρχική εφαρμογή : [https://stark-lake-93710.herokuapp.com/](https://stark-lake-93710.herokuapp.com/)
-Η εφαρμογή μετά τους μετασχηματισμούς : [https://twitter2015038.herokuapp.com/](https://twitter2015038.herokuapp.com/)
+![screenshot](https://raw.githubusercontent.com/sakis475/cscw/4%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/starklake93710.png)
+
+**Η εφαρμογή μετά τους μετασχηματισμούς :**
+[https://twitter2015038.herokuapp.com/](https://twitter2015038.herokuapp.com/)
+![screenshot](https://raw.githubusercontent.com/sakis475/cscw/3%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/global3oparadoteo.png)
 
 ## Εργαλεία
 Αρχικά για να ρυθμιστούν οι κατάλληλες παράμετροι και η εφαρμογή να είναι online και λειτουργική, χρησιμοποίησα τα online εργαλεία Github,Heroku,PubNub όπως μας υποδείχτηκαν στις οδηγίες.
 Χρησιμοποίησα το gimp για να επεξεργαστώ την εικόνα που ορίζει την υφή της υδρόγειου σφαίρας.
 Αλλαγές/προσθήκες στο κώδικα έγιναν είτε online από το github είτε από το command line.
+
+
+
 
 **Όλες οι αλλαγές, screenshots, links στο κώδικα και άλλα :** 
 
@@ -25,10 +34,6 @@
 pain, pained, painful, panic, panicked, panics, paradise, paradox, pardon, pardoned, pardoning, pardons, parley, passion, passionate, passive, passively, pathetic, pay, peace, peaceful, peacefully, penalize, penalized, penalizes, penalizing, penalty, pensive, perfect, perfected
 
 ### Παραδοτέο 2
-
-Η διεύθυνση (url) της ιστοσελίδας μου με την εφαρμογή :
-[https://twitter2015038.herokuapp.com/](https://twitter2015038.herokuapp.com/)
-
 
 ![screenshot](https://github.com/sakis475/cscw/blob/2o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/%20color%20changed.png?raw=true)
 
@@ -61,12 +66,13 @@ pain = πόνος ,pained = πονεμένος ,πικραμένος, painful = 
 
 ### Παραδοτέο 3
 
-Η διεύθυνση (url) της ιστοσελίδας μου με την εφαρμογή :
-[https://twitter2015038.herokuapp.com/](https://twitter2015038.herokuapp.com/)
-
 ![screenshot](https://raw.githubusercontent.com/sakis475/cscw/3%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/global3oparadoteo.png)
 
 
 Για την αλλαγή της υφής, αρχικά ανέβασα την εικόνα lightoffworld2.jpg στη τοποθεσία  [twitter-stream-globe/public/images/lightoffworld2.jpg](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/images/lightoffworld2.jpg) και άλλαξα τον [κώδικα](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/javascripts/TwitterStreamGlobe.js) κατάλληλα, επίσης στο ίδιο αρχείο έγινε και η κατάλληλη μετατροπή για τη αλλαγή ταχύτητας.
 
 Για την αλλαγή της προέλευσης των tweets , έγινε η αλλαγή στο αρχείο [index.js](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/tweet-publisher/index.js) όπου άλλαξα το geofence σε **'-132,-54,-32,54'** όπου είναι η ήπειρος της Αμερικής.
+
+
+## Σύνοψη
+Όλες οι αλλαγές έγιναν σύμφωνα με τα ζητούμενα. Έχουν παραδοθεί όλα τα ζητούμενα εκτός από αποθήκευση tweet σε server, μετατροπή από 3d σε 2d. Επιπλέον έχει γίνει το bonus 1 όπου υλοποίησα τη τελική αναφορά σε μορφή github-pages : [https://sakis475.github.io/](https://sakis475.github.io/).
