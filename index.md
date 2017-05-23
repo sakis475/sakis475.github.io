@@ -1,3 +1,6 @@
+#Τελική αναφορά 
+
+
 ## Παραδοτέο 1
 
 Διαβαθμίσεις συναισθημάτων με βάση τα χρώματα:
@@ -56,3 +59,5 @@ pain = πόνος ,pained = πονεμένος ,πικραμένος, painful = 
 Για την αλλαγή της υφής, αρχικά ανέβασα την εικόνα lightoffworld2.jpg στη τοποθεσία  [twitter-stream-globe/public/images/lightoffworld2.jpg](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/images/lightoffworld2.jpg) και άλλαξα τον [κώδικα](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/javascripts/TwitterStreamGlobe.js) κατάλληλα, επίσης στο ίδιο αρχείο έγινε και η κατάλληλη μετατροπή για τη αλλαγή ταχύτητας.
 
 Για την αλλαγή της προέλευσης των tweets , έγινε η αλλαγή στο αρχείο [index.js](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/tweet-publisher/index.js) όπου άλλαξα το geofence σε **'-132,-54,-32,54'** όπου είναι η ήπειρος της Αμερικής.
+
+## Παραδοτέο 4
