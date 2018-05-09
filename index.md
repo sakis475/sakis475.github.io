@@ -1,78 +1,69 @@
-# Τελική αναφορά 
+Θα αναπτύξω στο παρόν κειμενάκι τις απόψεις μου για τη σημερινή παιδεία, ή τουλάχιστον θα προσπαθήσω. Είναι ευκαιρία να βελτιώσω και να εξελίξω το τρόπο γραφής μου καθώς και να καταπολεμίσω την αμνησία λέξεων και εκφράσεων που με διακατέχει.
 
-## Εισαγωγή
-Σκοπός αυτής της εργασίας ήταν να κάνουμε κάποιους μετασχηματισμούς στο project [twitter-stream-globe](https://github.com/ioniodi/twitter-stream-globe), όπου αυτό που κάνει η συγκεκριμένη εφαρμογή είναι να προβάλει τα συναισθήματα των tweets σε μια 3D απεικόνιση, σε πραγματικό χρόνο, από όλο τον κόσμο. 
-  
-  
-Η αρχική εφαρμογή : [https://stark-lake-93710.herokuapp.com/](https://stark-lake-93710.herokuapp.com/)
-![screenshot](https://raw.githubusercontent.com/sakis475/cscw/4%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/starklake93710.png)
-
-**Η εφαρμογή μετά τους μετασχηματισμούς :**
-[https://twitter2015038.herokuapp.com/](https://twitter2015038.herokuapp.com/)
-![screenshot](https://raw.githubusercontent.com/sakis475/cscw/3%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/global3oparadoteo.png)
-
-## Εργαλεία
-Αρχικά για να ρυθμιστούν οι κατάλληλες παράμετροι και η εφαρμογή να είναι online και λειτουργική, χρησιμοποίησα τα online εργαλεία Github,Heroku,PubNub όπως μας υποδείχτηκαν στις οδηγίες.
-Χρησιμοποίησα το gimp για να επεξεργαστώ την εικόνα που ορίζει την υφή της υδρόγειου σφαίρας.
-Αλλαγές/προσθήκες στο κώδικα έγιναν είτε online από το github είτε από το command line.
+Το παιδί ηλικίας 2 ετών και μετά, έχει περάσει τη εμβρυική σωματική και νοητική κατάσταση, έχοντας πια ώριμο και εύπορο νου έτοιμο να ανακαλύψει το κόσμο γύρω του. Σε αυτή τη ηλικία θέτονται βάσεις μείζων αναφοράς. Όπως το ότι αναγνωρίζει την οντότητα του, δηλαδή πλέον έχει συνείδηση και έχει την ικανότητα να αναγνωρίζει τον εαυτό του και τους άλλους σαν ανθρώπους.
 
 
+bigkanovivlia
+nitzsche 
+kropotkin peri anarxia
+1984
+
+o ksenos
+kropotkin gia tus neous
+komunistiko manifesto
+u are not so smart
+h trelokomia tu kapitalismu
+o kiklis me th kimolia
+sopen 
+theorima papagalou
+
+telikh anafora github..
+texnhthNohmosinh
+
+grafimata andrea
 
 
-**Όλες οι αλλαγές, screenshots, links στο κώδικα και άλλα :** 
-
-### Παραδοτέο 1
-
-Διαβαθμίσεις συναισθημάτων με βάση τα χρώματα:
-
-Κόκκινο: Πολύ αρνητικό συναίσθημα
-Μώβ: Αρνητικό συναίσθημα
-Κίτρινο: Θετικό συναίσθημα
-Πράσινο: Πολύ θετικό συναίσθημα
-
-Λέξεις που θα μεταφραστούν: 
-pain, pained, painful, panic, panicked, panics, paradise, paradox, pardon, pardoned, pardoning, pardons, parley, passion, passionate, passive, passively, pathetic, pay, peace, peaceful, peacefully, penalize, penalized, penalizes, penalizing, penalty, pensive, perfect, perfected
-
-### Παραδοτέο 2
-
-![screenshot](https://github.com/sakis475/cscw/blob/2o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/%20color%20changed.png?raw=true)
-
-Το link του αρχείο του αποθετηρίου μου με τον κώδικα που ορίζει τη διαβάθμιση των συναισθημάτων και τα χρώματα των ακτίνων:
-[ twitter-stream-globe/public/javascripts/TweetBeacon.js
-](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%28%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%29/public/javascripts/TweetBeacon.js)
-
-Κόκκινο: Πολύ αρνητικό συναίσθημα || Μώβ: Αρνητικό συναίσθημα || Κίτρινο: Θετικό συναίσθημα || Πράσινο: Πολύ θετικό συναίσθημα
-
-Οι άσπρες ακτίνες είναι ουδέτερες, δηλαδή  στα tweet που δεν βρέθηκε λέξη από το λεξιλόγιο ή οι αφαιροπροσθέσεις έχουν αποτέλεσμα 0.
-
-Επιπλέον άλλαξα/πρόσθεσα τα χρώματα συναισθημάτων στη αριστερή στήλη και πείραξα και τα Tweet Sentiment χρώματα (το score στα δεξιά): 
-
-||[ twitter-stream-globe/public/javascripts/TweetHud.js
-](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%28%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%29/public/javascripts/TweetHud.js) 
-||
-[  twitter-stream-globe/public/stylesheets/style.scss
-](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF(%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-)/public/stylesheets/style.scss) 
-||
-[   twitter-stream-globe/public/stylesheets/style.css 
-](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF(%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE-%CF%87%CF%81%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-)/public/stylesheets/style.css)
 
 
-![screenshot](https://github.com/sakis475/cscw/blob/2o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/left%20hud.png?raw=true)
-
-Τέλος, οι μεταφρασμένες λέξεις: [ twitter-stream-globe/AFINN-translateToGreek165.txt
-](https://github.com/sakis475/twitter-stream-globe/blob/2%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF(%CE%BC%CE%B5%CF%84%CE%AC%CF%86%CF%81%CE%B1%CF%83%CE%B7-%CE%BB%CE%AD%CE%BE%CE%B5%CF%89%CE%BD-)/AFINN-translateToGreek165.txt)
-
-pain = πόνος ,pained = πονεμένος ,πικραμένος, painful = επώδυνο ,panic = πανικός ,panicked = πανικοβλήθηκα ,πανικοβλήθηκαν ,πανικοβλήθηκε ,panics = πανικοί , paradise = παράδεισος ,paradox	= παράδοξο ,pardon = συγνώμη ,pardoned = χάρη , pardoning = αμνήστευση , pardons = συγχωρήσεις , parley = διαπραγμάτευση ,passion = πάθος , passionate = παθιασμένος , passive	= παθητικό ,παθητικός , passively = παθητικά , pathetic = αξιολύπητος , pay = μισθός ,πληρωμή , peace = ειρήνη , peaceful = ειρηνικός , peacefully = ειρηνικά , penalize = τιμωρεί , penalized = τιμωρούνται , penalizing = τιμωρία  , penalty	= ποινή  ,pensive = σκεπτικός  , perfect = τέλειο  , perfected = τελειοποιημένο ,perfection = τελειότητα 
-
-### Παραδοτέο 3
-
-![screenshot](https://raw.githubusercontent.com/sakis475/cscw/3%CE%BF-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/projects/2015038/global3oparadoteo.png)
 
 
-Για την αλλαγή της υφής, αρχικά ανέβασα την εικόνα lightoffworld2.jpg στη τοποθεσία  [twitter-stream-globe/public/images/lightoffworld2.jpg](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/images/lightoffworld2.jpg) και άλλαξα τον [κώδικα](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/public/javascripts/TwitterStreamGlobe.js) κατάλληλα, επίσης στο ίδιο αρχείο έγινε και η κατάλληλη μετατροπή για τη αλλαγή ταχύτητας.
+**Παραδοτέο 1**
+----------
 
-Για την αλλαγή της προέλευσης των tweets , έγινε η αλλαγή στο αρχείο [index.js](https://github.com/sakis475/twitter-stream-globe/blob/3o-%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF/tweet-publisher/index.js) όπου άλλαξα το geofence σε **'-132,-54,-32,54'** όπου είναι η ήπειρος της Αμερικής.
+Ο σύνδεσμος της εφαρμογής με pretty format **https://sakis475.github.io/D3js-uk-political-donations** 
+Πραγματοποιήθηκε με το config gh-pages αρχείο [_config.yml](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/_config.yml)
 
+Τα χρώματα των κύκλων καθώς και τα επιμέρους 3 πεδία της ομαδοποίησης Split by party έχουν αλλάξει σε κόκκινο, πράσινο, μπλε.
+Στο αρχείο [chart.js](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/chart.js) *line- 28* για τους κύκλους και [style.css](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/style.css) *line-166-179* για τα πεδία ομαδοποίησης.
 
-## Σύνοψη
-Όλες οι αλλαγές έγιναν σύμφωνα με τα ζητούμενα. Έχουν παραδοθεί όλα τα ζητούμενα εκτός από αποθήκευση tweet σε server, μετατροπή από 3d σε 2d. Επιπλέον έχει γίνει το bonus 1 όπου υλοποίησα τη τελική αναφορά σε μορφή github-pages : [https://sakis475.github.io/](https://sakis475.github.io/).
+Για να ακούγετε ήχος όταν πατιέτε ένα κουμπί, πρόσθεσα το *soundButton.mp3* 
+και το event onclick [index.html](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/index.html) *line-40-60*
+
+Για να ανοίγει google search, τον donator, σε νέο παράθυρο όταν πατιέτε ένας κύκλος. Στο αρχείο [chart.js](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/chart.js) προσθέθηκε νέα function με όνομα *mouseClick* *(line-448)* και γίνεται trigger όταν κάνουμε click σε κάποιο κύκλο *(line-116)*
+
+Για να γίνετε μεγένθυνση σε κείμενο πρόσθεσα css ιδιότητες για κάθε element του html, [style.css](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/style.css) *(line-8-115)*
+![enter image description here](https://github.com/sakis475/sw/blob/paradoteo1/projects/2015038/zoomtext.png?raw=true)
+
+Όταν ο χρήστης έχει το ποντίκι πάνω από ένα κύκλο για πάνω από 0,3 δεύτερα ακούγετε το όνομα του donator και το ποσό της δωρεάς του. Για αυτή τη λειτουργηκότητα χρησιμοποίησα μια δωρεάν βιβλιοθήκη: http://www.masswerk.at/mespeak/ 
+Και προστέθηκε ο κώδικας στο [chart.js](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo1/chart.js) *(line-421-424 & line-441-444)*
+
+Τέλος προστέθηκε ένα επιπλέον view, το Split by amount, όπου χωρίζω τις δωρεές σε 5 τάξης μεγέθους και δίπλα αναφέρω το ποσοστό του αθροίσματος των δωρεών σε σχέση με το συνολικό ποσό της εκάστοτε τάξης μεγέθους που ανήκει σε ένα κόμμα. Για λόγους απλότητας υπολόγισα μια φορά τα στοιχεία με sql και τα έβαλα hard-typed στο html αρχείο, έτσι και αλλιώς τα δεδομένα δεν αλλάζουν οπότε δεν χρειάζετε να υπολογίζονται κάθε φορά που φορτώνετε η σελίδα.
+![](https://github.com/sakis475/sw/blob/paradoteo1/projects/2015038/splitbyamount.png?raw=true)
+
+To csv αρχείο [2015038.csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015038.csv)
+
+Το pull request στο κοινό αποθετήριο του κώδικα: 
+https://github.com/ioniodi/D3js-uk-political-donations/pull/32
+
+**Παραδοτέο 2**
+----------
+Υλοποιήθηκε η δυναμική επέκταση των δωρητών (Lastly Visited). Σε κάθε mouseOver κύκλου επεκτείνεται δυναμικά μια κάθετη λίστα από τον πιο πρόσφατο μέχρι τον παλαιότερο δωρητή. Η λίστα κρατάει μάξιμουμ 12 δωρητές και μεταθέτει το δωρητή στην κορυφή σε περίπτωση που υπάρχει ήδη στη λίστα.
+
+![enter image description here](https://github.com/sakis475/sw/blob/paradoteo2/projects/2015038/dynPic.png?raw=true)
+
+Στο αρχείο [chart.js](https://github.com/sakis475/D3js-uk-political-donations/blob/paradoteo2/chart.js) στη γραμμή 416-447 προστέθηκε κώδικας για αναγνώριση έγκυρου url και προσθήκης εικονιδίου στη λίστα.
+Έπειτα στη γραμμή 517 γίνεται το "render" της Lastly Visited λίστας.
+
+Διαπιστώθηκε πρόβλημα με το Chrome_version55+ όσο αφορά τη meSpeak(φωνητική λειτουργία), κάποιες φορές δεν παίζει ο ήχος επειδή δεν το επιτρέπει το chrome. Αλλά με το Firefox δουλεύει μια χαρά.
+
+Δημιουργία καινούργιας απεικόνισης και εφαρμογή σε νέα στατιστικά δεδομένα δεν πραγματοποιήθηκε λόγω έλλειψης χρόνου.
